@@ -34,7 +34,8 @@ h2 {
     background-color: white;
     width: 550px;
     font-size: 18px;
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     margin: auto;
     margin-bottom: 6em;
     border-radius: 5px;
@@ -58,11 +59,11 @@ h2 {
 svg {
     width: 40%;
     height: 50%;
-
+    padding-top: 15px;
 }
 
 .hidden {
-    visibility: hidden;
+    display: none;
 }
 
 .message-box {
@@ -70,9 +71,39 @@ svg {
     width: 850px;
     height: 160px;
     margin: auto;
-    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.mantra-button-2 {
+    text-align: left;
+}
+
+.add-message {
+    color: white;
+    background-color: #134d71; 
+    border-radius: 10px;
+    font-size: 18px;
+    width: 200px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+.submit {
+    color: white;
+    background-color: #134d71; 
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.message-input {
+    width: 25em;
+    margin-top: 10px;
+}
