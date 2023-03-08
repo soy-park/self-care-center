@@ -28,6 +28,8 @@ var form = document.querySelector('.form');
 var randomMessage = document.querySelector('.random-message');
 
 receiveMessageBtn.addEventListener('click', displayMessage);
+addMessageBtn.addEventListener('click', displayForm);
+submitBtn.addEventListener('click', addMessageToList)
 
 function displayMessage(event) {
     event.preventDefault();
@@ -50,8 +52,6 @@ function displayMessage(event) {
     }
 };
 
-addMessageBtn.addEventListener('click', displayForm);
-
 function displayForm(event) {
     event.preventDefault();
     form.classList.remove('hidden');
@@ -64,8 +64,6 @@ function displayForm(event) {
         textArea.value = ' ';
     }
 };
-
-submitBtn.addEventListener('click', addMessageToList)
 
 function addMessageToList(event) {
     event.preventDefault();
