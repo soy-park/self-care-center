@@ -4,7 +4,7 @@
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 "How can I care for myself? One way is with affirmations and mantras! Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth. Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!"
 
-This solo project is creating an app that allows users to choose to view an affirmation or mantra, as well as create their own affirmation and/or mantra. 
+This solo project is creating an app that allows users to choose to view an affirmation or mantra, as well as create their own affirmation and/or mantra. The app can be viewed at https://soy-park.github.io/self-care-center/
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
